@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aubrey Manson Portfolio</title>
+
+    <!-- Begin Page Links -->
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <!-- Animate.CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+
+    <!-- Google Fonts Link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <!-- Scroll Reveal -->
+    <script src="./scrollreveal.min.js"></script>
+
+    <!-- End Page Links -->
+  </head>
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <body data-spy="scroll" data-target="#navbar-scroll">
+    <!-- ********************************************************* -->
+    <!-- Begin Navigation Section -->
+    <div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top justify-content-between"
+      >
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/aim_logo.png"
+            width="64px"
+            height="64px"
+            alt="logo homepage link"
+            class=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-scroll"
+          aria-controls="navbar-scroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-scroll">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#Work">Work</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Process">Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- End Navigation Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+    <!--Begin Jumbotron Section  -->
+    <!-- Jumbotron/Hero Area -->
+    <div class="jumbotron jumbotron-fluid" id="About">
+      <div class="parallax">
+        <div class="parallax__layer parallax__layer--back">
+            <img class="parallax_object" 
+            src="images/parallax portfolio-01.svg">
+        </div>
+          
+          <div class="jumbotron-padding parallax__layer parallax__layer--base">
+    
+              <h1 class="jumbotron-h1 headline">Aubrey Ingmar Manson</h1>
+              <h1 class="jumbotron-h1 headline">UX/UI Designer</h1>
+              <hr class="my-2-hero" />
+              <row class="social-icons col-12">
+                <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/ameliaearhart00">
+                  <i class="fab fa-github-alt"></i>
+                </a>
+                <a href="https://instagram.com/aubrey_ingmar_manson/">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+              </row>
+              <p class="jumbotron-text">
+                Your Vision + My Design = Something We Are Both Super Happy With : )
+              </p>
+      
+              <p class="jumbotron-text">
+                <a
+                  class="btn btn-text btn-outline-primary btn-lg"
+                  href="#"
+                  role="button"
+                  data-toggle="modal"
+                  data-target="#getStartedModal"
+                  >Let's Start This!</a
+                >
+              </p>
+            </div>
+      </div>
+     
+      <div id="down-page-arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i>"></i></div>
+    </div>
+    <!-- End Jumbotron Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+    <!-- 'Let's Get Started' Button Modal -->
+    <!-- ********************************************************* -->
+    <div class="modal fade" id="getStartedModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title">
+              To get started, please fill in the information below and describe
+              the project you are looking to accomplish. I'll be in contact
+              within 1-2 business days.
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Modal Body with Form -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="inputName">Your Name</label>
+                <input type="text" class="form-control" id="inputName" />
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Contact Email Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-described
+                  by="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="message-text" class="col-form-label"
+                  >Message:</label
+                >
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-dismiss="modal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Container -->
+    <div class="container">
+      <!-- ********************************************************* -->
+      <!--  Begin Cards Section -->
+      <div id="Work" class="portfolio">
+        <h1 class="text-left">Work</h1>
+        <hr class="my-2" />
+        <p class="portfolio-summary-text">
+          Below you'll see some of my recent projects.
+        </p>
+        <div class="portfolio-container">
+          <div class="row align-items-center">
+            <!-- Project 1 - Reach App  -->
+            <div class="col col-card d-flex justify-content-around">
+              <div class="card" style="width: 18rem;">
+                <div class="container">
+                  <img
+                    class="card-img-top"
+                    src="images/Cover-Image_ReachApp_web_bw.png"
+                    alt="Card image cap"
+                  />
+                  <div class="overlay">
+                    <a href="#" class="icon" title="User Profile">
+                      <img src="images/Cover-Image_ReachApp_web.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">REACH</h3>
+                  <p class="card-text">
+                    A social app that easily connects travelers to meet up
+                    through messaging, local meetups, and lists of activities.
+                  </p>
+                  <a href="#" class="btn-outline-success btn-lg"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 - AirBnb Traveler  -->
+            <div class="col col-card d-flex justify-content-around">
+              <div class="card" style="width: 18rem;">
+                <div class="container">
+                  <img
+                    class="card-img-top"
+                    src="images/CoverImage_AirbnbTraveler_web_bw.png"
+                    alt="Card image cap"
+                  />
+                  <div class="overlay">
+                    <a href="#" class="icon" title="User Profile">
+                      <img src="images/CoverImage_AirbnbTraveler_web.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Airbnb Traveler</h3>
+                  <p class="card-text">
+                    An app feature for Airbnb which curates a list of homes and
+                    activities based on user's traveler type.
+                  </p>
+                  <a href="#" class="btn-outline-success btn-lg"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center">
+            <!-- Project 3 - DOI Website -->
+            <div class="col col-card d-flex justify-content-around">
+              <div class="card" style="width: 18rem;">
+                <div class="container">
+                  <img
+                    class="card-img-top"
+                    src="images/CoverImage_DOI_web_bw.png"
+                    alt="Card image cap"
+                  />
+                  <div class="overlay">
+                    <a href="#" class="icon" title="User Profile">
+                      <img src="images/CoverImage_DOI_web.png" />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h3 class="card-title">Dept. of the Interior</h3>
+                  <p class="card-text">
+                    Contemporary redesign to include large hero area with
+                    relevant blog-style news and prominent priority cards on
+                    homepage.
+                  </p>
+                  <a href="#" class="btn-outline-success btn-lg"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 - StandUp for Youth -->
+            <div class="col col-card d-flex justify-content-around">
+              <div class="card" style="width: 18rem;">
+                <div class="container">
+                  <img
+                    class="card-img-top"
+                    src="images/CoverImage_StandUpforYouth_web_bw.png"
+                    alt="Card image cap"
+                  />
+                  <div class="overlay">
+                    <a href="#" class="icon" title="User Profile">
+                      <img src="images/CoverImage_StandUpforYouth_web.png" />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h3 class="card-title">StandUp for Youth</h3>
+                  <p class="card-text">
+                    Colorful redesign to promote donations and volunteer
+                    interest to benefit this nonprofit's mission to end youth
+                    homelessness.
+                  </p>
+                  <a href="#" class="btn-outline-success btn-lg"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Cards Section -->
+      <!-- ********************************************************* -->
+
+
+       <!-- ********************************************************* -->
+      <!-- Begin Process Section -->
+
+      <div id="Process" class="process">
+        <h1 class="text-left">Process</h1>
+        <hr class="my-2" />
+        <p class="process-summary-text">
+          I include user-centered design thinking, creativity, and collaboration throughout!
+        </p>
+        <div class="process-container">
+          <div class="row align-items-center">
+            <!-- Exploration  -->
+            <div class="col col-card d-flex justify-content-around">
+              <div class="card-process" style="height: 10rem;">
+                
+                  <img
+                    class="card-img-top"
+                    src="images/exploration-05.png"
+                    alt="Card image cap"
+                  />
+                  
+                  
+                
+                <div class="card-process-body">
+                  <h3 class="card-title-process">Exploration</h3>
+                  <div class="row">
+                    <ul class="process-tasks">
+                    <li>User Interviews</li>
+                    <li>User Personas</li>
+                    <li>User Insight</li>
+                    <li>User Empathy</li>
+                    <li>Competitor Analysis</li>
+                  </ul>
+                </div>
+                  
+                  </div>
+                  
+        
+              </div>
+            </div>
+
+            <!-- Ideation  -->
+             <div class="col col-card d-flex justify-content-around">
+                <div class="card-process" style="height: 10rem;">
+                  
+                    <img
+                      class="card-img-top"
+                      src="images/ideation-03.png"
+                      alt="Card image cap"
+                    />
+                    
+                    
+                  
+                  <div class="card-body">
+                    <h3 class="card-title-process">Ideation</h3>
+                    <div class="row">
+                      <ul class="process-tasks">
+                        <li>User Flows</li>
+                        <li>Storyboards</li>
+                        <li>Moodboards</li>
+                        <li>Usability Heuristics</li>
+                        <li>Sketches</li>
+                        <li>User Scenarios</li>
+                      </ul>
+                    </div>
+                  </div>
+                    
+          
+                </div>
+              </div>
+
+
+
+                <!-- Iteration -->
+
+                <div class="col-4 col-card d-flex justify-content-around">
+                    <div class="card-process" style="height: 10rem;">
+                        <img
+                          class="card-img-top"
+                          src="images/iteration-04.png"
+                          alt="Card image cap"
+                        />
+                    
+                      
+                      <div class="card-body">
+                        <h3 class="card-title-process">Iteration</h3>
+                        <div class="row">
+                          <ul class="process-tasks">
+                            <li>Wireframes</li>
+                            <li>Prototypes</li>
+                            <li>User Testing</li>
+                            <li>Atomic Design</li>
+                            <li>MVP</li>
+                          </ul>
+                        </div>
+                        
+                    </div> 
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+            
+
+            
+           
+   <!-- Collaboration -->
+   <div class="row">
+    <div class="col-12 col-card d-flex justify-content-around">
+        <div class="card-process" style="width: 30rem;">
+                  
+          <img
+            class="card-img-top"
+            src="images/collaboration-02.png"
+            alt="Card image cap"
+          />      
+          <div class="card-body">
+            <h3 class="card-title-process">Collaboration</h3>
+            <div class="row">
+              <ul class="process-tasks">
+                <li>Teamwork</li>
+                <li>Listening</li>
+                <li>Leadership</li>
+                <li>Design Sprints</li>
+                <li>Agile Workflows</li>
+              </ul>
+            </div>
+          </div>
+            
+    
+        </div>
+    </div>
+
+</div>         
+</div>
+</div>
+        
+
+      <!-- ********************************************************* -->
+      <!-- Begin About/Contact Section -->
+      <div id="Contact">
+        <div class="jumbotron-about jumbotron-fluid">
+          <div class="container-about">
+            <div class="row-container">
+              <div class="col-md-12 col-lg-6 col-xlg-7">
+                <img class="img-profile animated flipInY" src="images/aubrey-icon-ilus.png" />
+              </div>
+              <div class="col-md-12 col-lg-6 col-xlg-5">
+                <h1 class="text-center animated flipInY">Contact</h1>
+                <hr class="my-2" />
+                <p class="text-center animated flipInY">
+                  I'm a freelance creative based in Los Angeles, CA, who is
+                  willing to work on projects remotely or in-person (if in LA)
+                </p>
+                <p class="text-center animated flipInY">
+                  responsive web design, design-thinking, prototyping, branding,
+                  development, research
+                </p>
+
+                <a
+                  class="btn btn-text btn-outline-primary btn-lg animated flipInY rubberBand"
+                  href="mailto:youplusmeequalsme@gmail.com"
+                  role="button"
+                  >Email Me!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End About/Contact Section -->
+      <!-- ********************************************************* -->
+
+      <!-- End Page Container Div Below -->
+    </div>
+
+    <!-- ********************************************************* -->
+    <!-- Email Send Modal -->
+    <!-- ********************************************************* -->
+    <!-- <div class="modal fade" id="emailModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content"> -->
+    <!-- Modal Header -->
+    <!-- <div class="modal-header">
+            <h5 class="modal-title">
+              To get started, please fill in the information below and describe
+              the project you are looking to accomplish. I'll be in contact
+              within 1-2 business days.
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+
+    <!-- Modal Body with Form -->
+    <!-- <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="inputName">Your Name</label>
+                <input type="text" class="form-control" id="inputName" />
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Contact Email Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-described
+                  by="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="message-text" class="col-form-label"
+                  >Message:</label
+                >
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div> -->
+
+    <!-- Modal Footer -->
+    <!-- <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <!-- Add a Form with a "Send Email" Button -->
+    <!-- <form class="m-4" style="width: 40%">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="firstName"
+          placeholder="First Name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="lastName"
+          placeholder="Last Name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="eMail">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="eMail"
+          placeholder="Email"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="5"></textarea>
+      </div> -->
+
+    <!-- Button that triggers modal -->
+    <!-- <button
+        id="sendEmail"
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#sentMessage"
+      >
+        Send Email
+      </button>
+    </form> -->
+
+    <!-- Modal -->
+    <!-- <div
+      class="modal fade"
+      id="sentMessage"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button
+              id="confirmDismiss"
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- ********************************************************* -->
+    <!-- Begin Footer Section -->
+    <div id="Footer" class="footer">
+      <div>
+        <row class="social-icons-footer">
+          <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/ameliaearhart00">
+            <i class="fab fa-github-alt"></i>
+          </a>
+          <a href="https://instagram.com/aubrey_ingmar_manson/">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <h5 class="col-12">Copyright 2019 Aubrey Ingmar Manson</h5>
+        </row>
+      </div>
+    </div>
+    <!-- End Footer Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+
+    <!-- Javascript & Jquery Links -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <!-- coded JS for website -->
+
+    <script src="form.js"></script>
+  </body>
+</html>
