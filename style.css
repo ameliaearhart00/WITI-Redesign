@@ -14,6 +14,7 @@ h1 {
   font-weight: 200;
   font-size: 48px;
   text-align: center;
+  color: #4c86a2;
 }
 
 h2 {
@@ -474,7 +475,7 @@ a:active {
 }
 
 /* ****************************** */
-/* Portfolio Section w/Cards */
+/* Membership Section w/Cards */
 /* ****************************** */
 
 .portfolio-container {
@@ -534,8 +535,20 @@ a:active {
 }
 
 /* ****************************** */
-/* Process Section w/Cards */
+/* Member Benefits w/Cards */
 /* ****************************** */
+
+.card-title-member {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.card-text-member {
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
 
 .process-container {
   background: white;
@@ -564,6 +577,34 @@ a:active {
   border-radius: 15px;
   flex: flex;
 }
+
+.card-process-mentor {
+  display: block;
+  background: #88cdef;
+  height: 350px;
+  border-radius: 5px;
+  flex: flex;
+  padding: 10px;
+}
+
+.card-process-resource {
+  display: block;
+  background: #f37667;
+  height: 350px;
+  border-radius: 5px;
+  flex: flex;
+  padding: 10px;
+}
+
+.card-process-career {
+  display: block;
+  background: #4c86a2;
+  height: 350px;
+  border-radius: 5px;
+  flex: flex;
+  padding: 10px;
+}
+
 .card-process-body {
   justify-content: center;
   display: block;
@@ -710,26 +751,34 @@ a:active {
 /* ****************************** */
 
 .footer {
-  background-color: #88cdef;
+  background-color: #4c86a2;
   margin-bottom: 10px;
   padding: 10px;
 }
 
-.footer h5 {
+.footer p {
   margin-top: 20px;
   padding-left: 10px;
+  color: white;
 }
 
-.footer h4 {
+.footer h3 {
   padding-left: 10px;
+  color: #f37667;
 }
 
 /* footer iconography */
 
-.social-icons-footer i {
-  font-size: 18px;
-  color: black;
-  padding: 10px;
+.footer i {
+  font-size: 24px;
+  color: white;
+  padding: 15px;
+}
+
+.footer li {
+  list-style: none;
+  text-align: center;
+  color: white;
 }
 .social-icons i:hover {
   color: #5ed0ec;
