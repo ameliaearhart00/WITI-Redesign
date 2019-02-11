@@ -87,11 +87,88 @@ a {
   margin: 0 auto;
   display: inline-block;
   max-width: 200px;
-  font-style: Finger Paint, Ubuntu;
+  font-style: Comfortaa, Sans Serif;
   font-size: 18px;
 }
 
 /* Pseudo classes for button interaction */
+
+.box-button {
+  border: 4px solid #f37667;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f37667;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.1s ease-in;
+  text-align: center;
+}
+
+.box-button:hover {
+  background-color: #81f8df;
+  color: #fff;
+}
+
+.box-button:active {
+  top: 0.1rem;
+}
+
+.box-button:active:after {
+  border-top-width: 0.4rem;
+  bottom: -1.15rem;
+}
+
+.box-button:after {
+  content: "";
+  height: 0;
+  border: 0.5rem solid transparent;
+  border-top-color: #f37667;
+  position: absolute;
+  left: -0.25rem;
+  bottom: -1.25rem;
+  display: inline-block;
+  width: calc(100% - 0.5rem);
+}
+
+.box-button-2 {
+  border: 4px solid #4c86a2;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4c86a2;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.1s ease-in;
+  text-align: center;
+}
+
+.box-button-2:hover {
+  background-color: #81f8df;
+  color: #fff;
+}
+
+.box-button-2:active {
+  top: 0.1rem;
+}
+
+.box-button-2:active:after {
+  border-top-width: 0.4rem;
+  bottom: -1.15rem;
+}
+
+.box-button-2:after {
+  content: "";
+  height: 0;
+  border: 0.5rem solid transparent;
+  border-top-color: #4c86a2;
+  position: absolute;
+  left: -0.25rem;
+  bottom: -1.25rem;
+  display: inline-block;
+  width: calc(100% - 0.5rem);
+}
+
 .btn:hover {
   background: #81f8df;
   color: white;
@@ -152,7 +229,7 @@ body {
 }
 
 nav {
-  background-color: #f1d67a;
+  background-color: #d8f0ff;
 }
 
 nav a {
@@ -160,9 +237,14 @@ nav a {
   font-size: 18px;
   padding: 30px;
 }
+
+.nav-member {
+  color: #f37667;
+  font-size: 24px;
+}
 /* this pseudo class will change the link tag <a> color when you hover on it */
 a:hover {
-  color: #88cdef;
+  color: #f37667;
 }
 
 /* this pseudo class will change the link tag <a> color when it is active */
@@ -219,7 +301,7 @@ a:active {
   right: 0;
   bottom: 0;
   padding: 1px 0;
-  height: 400px;
+  height: 400p;
 }
 
 .parallax__layer--base {
@@ -245,14 +327,18 @@ a:active {
 
 /* Jumbotron */
 .jumbotron {
-  background: #fff9a9;
+  background-image: url("Images/WITI-Jumbotron_smaller.png");
+  background-size: cover;
   min-height: 800px;
   margin-top: 0px;
   padding: 30px;
   text-align: center;
 }
+
 .jumbotron-padding {
-  height: 500px;
+  background-color: white;
+  opacity: 0.8;
+  height: 400px;
   margin: 100px;
   padding: 30px;
 }
@@ -266,6 +352,16 @@ a:active {
   /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); */
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
+}
+
+.jumbotron h3 {
+  font-size: 24px;
+  color: #f37667;
+}
+
+.jumbotron a {
+  color: white;
+  background-color: #4c86a2;
 }
 
 .jumbotron-text {
@@ -497,9 +593,14 @@ a:active {
   animation-iteration-count: infinite;
 } */
 
-/* Jumbotron Content */
-.jumbotron-about {
+/* Jumbotron Corporate */
+.jumbotron-corporate {
+  background-image: url("Images/WITI-Jumbotron_smaller.png");
+  background-size: cover;
+  min-height: 800px;
+  margin-top: 0px;
   padding: 30px;
+  text-align: center;
 }
 
 .container-about {
