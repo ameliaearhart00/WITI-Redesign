@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WITI Redesign</title>
+
+    <!-- Begin Page Links -->
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Animate.CSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+
+    <!-- Google Fonts Link -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <!-- Scroll Reveal -->
+    <script src="./scrollreveal.min.js"></script>
+
+    <!-- End Page Links -->
+  </head>
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <!-- ********************************************************* -->
+  <body data-spy="scroll" data-target="#navbar-scroll">
+    <!-- ********************************************************* -->
+    <!-- Begin Navigation Section -->
+    <div>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top justify-content-between"
+      >
+        <a class="navbar-brand" href="#"
+          ><img
+            src="Images/witi-30th-anniversary-logo-pink.png"
+            height="70px"
+            alt="logo homepage link"
+            class=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-scroll"
+          aria-controls="navbar-scroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-scroll">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Career Center</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Partnerships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Networks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link nav-member dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Membership</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sign Up</a>
+                <a class="dropdown-item" href="#">Login</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- End Navigation Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+    <!--Begin Jumbotron Section  -->
+    <!-- Jumbotron/Hero Area -->
+    <div class="jumbotron jumbotron-fluid jumbotron-hero" id="About">
+      <div class="parallax">
+        <div class="parallax__layer parallax__layer--back"></div>
+
+        <div class="jumbotron-padding parallax__layer parallax__layer--base">
+          <h3 class="jumbotron-text">
+            30 Years of Promoting Women in Technology
+          </h3>
+          <h1 class="jumbotron-h1 headline">BUILD. EMPOWER. INSPIRE.</h1>
+
+          <hr class="my-2-hero" />
+          <row>
+            <p class="jumbotron-text">
+              Our mission is to empower women worldwide to achieve unimagined
+              possibilities and transformations through technology, leadership,
+              and economic prosperity
+            </p>
+          </row>
+
+          <p class="jumbotron-text">
+            <a
+              class="btn btn-text btn-primary btn-lg"
+              href="#"
+              role="button"
+              data-toggle="modal"
+              data-target="#getStartedModal"
+              >BECOME A MEMBER</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Jumbotron Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+    <!-- 'Let's Get Started' Button Modal -->
+    <!-- ********************************************************* -->
+    <div class="modal fade" id="getStartedModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title">
+              To get started, please fill in the information below and describe
+              the project you are looking to accomplish. I'll be in contact
+              within 1-2 business days.
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <!-- Modal Body with Form -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="inputName">Your Name</label>
+                <input type="text" class="form-control" id="inputName" />
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Contact Email Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-described
+                  by="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="message-text" class="col-form-label"
+                  >Message:</label
+                >
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-dismiss="modal"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+    <!-- Begin Diversity Gap Section -->
+
+    <div id="Diversity" class="diversity">
+      <h1 class="text-center">The Diversity Gap</h1>
+
+      <p class="process-summary-text">
+        The lack of diversity & inclusion in tech points to real systematic
+        problems that we can help solve together
+      </p>
+      <p>Statistics from the U.S. Bureau of Labor Statistics 2016</p>
+      <div class="process-container">
+        <div class="row align-items-center">
+          <!-- Statistic #1  -->
+          <div class="col col-card d-flex justify-content-around">
+            <div class="card-process" style="height: 20rem; width: 20rem;">
+              <img
+                class="card-img-top"
+                src="Images/women-percentage.png"
+                alt="Card image cap"
+              />
+
+              <div class="card-process-body">
+                <h4 class="card-title-process">
+                  63% of the time, Women receive lower salary offers than men
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Statistic #2  -->
+          <div class="col col-card d-flex justify-content-around">
+            <div class="card-process" style="height: 20rem; width: 20rem;">
+              <img
+                class="card-img-top"
+                src="Images/percentage-stat.png"
+                alt="Card image cap"
+              />
+
+              <div class="card-body">
+                <h4 class="card-title-process">
+                  % of computing-related jobs women hold in the U.S.
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Statistic #3 -->
+
+          <div class="col-4 col-card d-flex justify-content-around">
+            <div class="card-process" style="height: 20rem; width: 20rem;">
+              <img
+                class="card-img-top"
+                src="Images/moneyreturn.png"
+                alt="Card image cap"
+              />
+
+              <div class="card-body">
+                <h4 class="card-title-process">
+                  Tech companies with Women in management positions see a 34%
+                  higher return in investment
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-2" />
+
+    <!-- ********************************************************* -->
+    <!-- WITI Member Benefits Section -->
+    <div id="Benefits" class="benefits">
+      <h1 class="text-center">WITI Member Benefits</h1>
+      <p class="process-summary-text">
+        If you're looking for a community where members give and get in equal
+        measure, where no one stands alon, where cliques don't exist, then take
+        the next step and join WITI today! Individal member benefits include:
+      </p>
+
+      <button class="box-button">JOIN WITI</button>
+      <h4>Individual member benefits include:</h4>
+      <div class="process-container">
+        <div class="row align-items-center">
+          <!-- Mentorship -->
+          <div
+            class="col-md-12 col-lg-4 col-card d-flex justify-content-around"
+          >
+            <div class="card-process-mentor">
+              <div class="card-process-body">
+                <h3 class="card-title-member">MENTORSHIP</h3>
+                <p class="card-text-member">
+                  Get help with your career and meet up with one of our esteemed
+                  mentors
+                </p>
+                <btn class="box-button-2">LEARN MORE</btn>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resources  -->
+          <div
+            class="col-md-12 col-lg-4 col-card d-flex justify-content-around"
+          >
+            <div class="card-process-resource">
+              <div class="card-body">
+                <h3 class="card-title-member">RESOURCES</h3>
+                <p class="card-text-member">
+                  WITI members get relevant information, articles, newsletters,
+                  stats, and marketplace reports
+                </p>
+                <btn class="box-button-2">LEARN MORE</btn>
+              </div>
+            </div>
+          </div>
+
+          <!-- Careeer Center -->
+
+          <div
+            class="col-sm-12 col-lg-4 col-card d-flex justify-content-around"
+          >
+            <div class="card-process-career">
+              <div class="card-body">
+                <h3 class="card-title-member">CAREER CENTER</h3>
+                <p class="card-text-member">
+                  Gain access to career fairs, job openings, and resume help
+                </p>
+                <btn class="box-button">LEARN MORE</btn>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-2" />
+
+    <!-- ********************************************************* -->
+    <!-- Begin Events Section -->
+    <div id="Events" class="events">
+      <h1 class="text-center">Upcoming Events</h1>
+      <hr class="my-2" />
+      <p class="process-summary-text">
+        WITI network events are discounted for our members. Find your local
+        network and get involved today.
+      </p>
+      <div class="process-container">
+        <div class="row align-items-center">
+          <!-- Event 1 -->
+          <div class="col col-card d-flex justify-content-around">
+            <div class="card-process" style="height: 10rem;">
+              <div class="card-process-body">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">FEB</div>
+                    <div class="row">05</div>
+                  </div>
+                  <div class="col">
+                    <h3 class="card-title-process">Organizational Culture</h3>
+                    <img
+                      src="Images/fish-discover-water2.png"
+                      style="height: 5rem;"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <h4>6pm, Raleigh, NC</h4>
+                  <p>
+                    Be happier and more productive at work! Learn what
+                    organizational culture is and why it is so powerful
+                  </p>
+                </div>
+                <btn>ATTEND</btn>
+              </div>
+            </div>
+          </div>
+
+          <!--Event 2 -->
+          <div class="col col-card d-flex justify-content-around">
+            <div class="card-process" style="height: 10rem;">
+              <div class="card-process-body">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">FEB</div>
+                    <div class="row">21</div>
+                  </div>
+                  <div class="col">
+                    <h3 class="card-title-process">
+                      Millenials - Hold Onto Your Hats
+                    </h3>
+                    <img
+                      src="Images/fish-discover-water2.png"
+                      style="height: 5rem;"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <h4>6:30pm, Irvine, CA</h4>
+                  <p>
+                    Come learn what makes Millenials 'tick' and how to lead and
+                    work with the next generation with Passion, Purpose, and
+                    Prosperity!
+                  </p>
+                </div>
+                <btn>ATTEND</btn>
+              </div>
+            </div>
+          </div>
+
+          <!-- Event 3-->
+
+          <div class="col-4 col-card d-flex justify-content-around">
+            <div class="card-process" style="height: 10rem;">
+              <div class="card-process-body">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">FEB</div>
+                    <div class="row">21</div>
+                  </div>
+                  <div class="col">
+                    <h3 class="card-title-process">
+                      Career Paths to Leadership
+                    </h3>
+                    <img
+                      src="Images/fish-discover-water2.png"
+                      style="height: 5rem;"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <h4>5:30pm, Columbus, OH</h4>
+                  <p>
+                    Female executives discuss various career paths to leadership
+                    roles in IT
+                  </p>
+                </div>
+                <btn>ATTEND</btn>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- All Events -->
+        <div class="row">
+          <div class="col-12 col-card d-flex justify-content-around">
+            <div class="card-process" style="width: 30rem;">
+              <btn>
+                <img
+                  src="Images/calendar-icon.png"
+                  alt="Card image cap"
+                  style="height: 10rem;"
+                />
+                <div class="card-body">
+                  <h3 class="card-title-process">All Events</h3>
+                </div>
+              </btn>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********************************************************* -->
+    <!-- Begin Hall of Fame Section -->
+    <div id="Hall of Fame">
+      <div class="jumbotron jumbotron-fluid jumbotron-hall">
+        <div class="container">
+          <h1 class="text-center">Hall of Fame</h1>
+          <h3>Women in Technology</h3>
+          <img src="Images/hall-of-fame.png" />
+
+          <p class="text-center">
+            The Women in Technology Hall of Fame was established in 1996 to
+            recognize, honor, and promote the outstanding contributions women
+            make to the scientific and technologica communities that improve and
+            evolve our society. On Monday, June 11, 2018, we honored six key
+            women leaders in Science and Technology at the 23rd Annual Women in
+            Techology Hall of Fame Dinner and Awards.
+          </p>
+
+          <div class="row">
+            <img src="Images/rchildress.jpg" />
+            <img src="Images/efeinler.jpg" />
+            <img src="Images/rho.jpg" />
+          </div>
+          <div class="row">
+            <img src="Images/skurinec.jpg" />
+            <img src="Images/yli.jpg" />
+            <img src="Images/rrao.jpg" />
+          </div>
+
+          <a class="btn btn-text box-button-2 btn-lg" href="#" role="button"
+            >MEET THE INDUCTEES
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********************************************************* -->
+    <!--Begin Corporate Programs Section  -->
+    <!-- Jumbotron/Hero Area -->
+    <div class="jumbotron jumbotron-fluid" id="About">
+      <h1 class="jumbotron-text">Corporate Programs</h1>
+      <h4 class="jumbotron-text">
+        WITI is the premier global organization helping tech-savvy women attain
+        their professional goals
+      </h4>
+      <div class="row">
+        <p class="jumbotron-text">
+          <img src="Images/teamworkmountain-color.png" style="height: 300px;" />
+        </p>
+      </div>
+
+      <p class="jumbotron-text">
+        <a
+          class="box-button btn-outline-primary"
+          href="#"
+          role="button"
+          data-toggle="modal"
+          data-target="#getStartedModal"
+          >CONTACT US</a
+        >
+      </p>
+    </div>
+    <div></div>
+    <div>
+      <img
+        src="Images/Corporate-Members.png"
+        style="height: 600px; align: center;"
+      />
+    </div>
+
+    <!-- End Jumbotron Section -->
+    <!-- ********************************************************* -->
+
+    <!-- Begin Corporate Members Carousel -->
+
+    <!-- End About/Contact Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+    <!-- Begin Footer Section -->
+    <div id="Footer" class="footer">
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="Images/witi-30th-anniversary-logo.png"
+            style="height: 70px;"
+          />
+          <h3>Women in Technology International</h3>
+          <ul>
+            <li>Contact Us</li>
+            <li>Olympic Plaza</li>
+            <li>11500 Olympic Blvd</li>
+            <li>Suite 400</li>
+            <li>Los Angeles, CA 90064</li>
+            <li>(818) 788-9484</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h3>FOLLOW US</h3>
+          <a>
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a>
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a>
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a>
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <a>
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a>
+            <i class="fas fa-rss"></i>
+          </a>
+
+          <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+          <btn>Enter Email Address</btn>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>1989-2019 WITI All Rights Reserved</p>
+        </div>
+        <div class="col">
+          <p>Rate Card | Privacy</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Section -->
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+
+    <!-- ********************************************************* -->
+
+    <!-- Javascript & Jquery Links -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <!-- coded JS for website -->
+
+    <script src="form.js"></script>
+  </body>
+</html>

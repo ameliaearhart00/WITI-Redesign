@@ -104,6 +104,9 @@ a {
   position: relative;
   transition: all 0.1s ease-in;
   text-align: center;
+  margin: 0 auto;
+  min-width: 210px;
+  display: block;
 }
 
 .box-button:hover {
@@ -142,6 +145,9 @@ a {
   position: relative;
   transition: all 0.1s ease-in;
   text-align: center;
+  margin: 0 auto;
+  min-width: 210px;
+  display: block;
 }
 
 .box-button-2:hover {
@@ -311,8 +317,12 @@ a:active {
 }
 
 .parallax__layer--back {
-  -webkit-transform: translateZ(-1px);
-  transform: translateZ(-1px);
+  /* -webkit-transform: translateZ(-1px); */
+  /* transform: translateZ(-1px); */
+  background: url(file:///Users/amelia/Documents/UCLA%20UX%20Bootcamp/UCLA%20Classwork/WITI-Redesign/Images/woman-jumbotron.png);
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* demo styles
@@ -337,8 +347,7 @@ a:active {
 }
 
 .jumbotron-padding {
-  background-color: white;
-  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.8);
   height: 400px;
   margin: 100px;
   padding: 30px;
@@ -648,6 +657,11 @@ a:active {
   text-align: center;
 }
 
+#About p {
+  margin: 0 auto;
+  min-width: 210px;
+  display: block;
+}
 .container-about {
   background-color: lightblue;
 }
