@@ -327,7 +327,7 @@ a:active {
 }
 
 /* Jumbotron */
-.jumbotron {
+.jumbotron-hero {
   background-image: url("Images/WITI-Jumbotron_smaller.png");
   background-size: cover;
   min-height: 800px;
@@ -625,14 +625,18 @@ a:active {
 }
 
 /* ****************************** */
-/* Contact/About*/
+/* Hall of Famet*/
 /* ****************************** */
 
-/* Email Me Button Animation */
-/* .rubberBand {
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-} */
+.jumbotron-hall {
+  background: #fbcfca;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Jumbotron Corporate */
 .jumbotron-corporate {
