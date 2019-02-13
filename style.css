@@ -107,6 +107,8 @@ a {
   margin: 0 auto;
   min-width: 210px;
   display: block;
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 .box-button:hover {
@@ -146,8 +148,10 @@ a {
   transition: all 0.1s ease-in;
   text-align: center;
   margin: 0 auto;
-  min-width: 210px;
+  min-width: 150x;
   display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .box-button-2:hover {
@@ -319,7 +323,7 @@ a:active {
 .parallax__layer--back {
   /* -webkit-transform: translateZ(-1px); */
   /* transform: translateZ(-1px); */
-  background: url(file:///Users/amelia/Documents/UCLA%20UX%20Bootcamp/UCLA%20Classwork/WITI-Redesign/Images/woman-jumbotron.png);
+  background: url(Images/woman-jumbotron.png);
   background-size: auto 80%;
   background-repeat: no-repeat;
   background-position: center;
@@ -387,6 +391,11 @@ a:active {
   width: 50%;
   translatey: (0px);
   animation: float 6s ease-in-out infinite;
+}
+
+.my-2 {
+  width: 80%;
+  padding: 30px;
 }
 
 /* Page Arrow */
@@ -637,6 +646,20 @@ a:active {
 /* Hall of Famet*/
 /* ****************************** */
 
+/* .center {
+  margin: 0 auto;
+  display: block;
+  justify-content: center; 
+} */
+
+.center-image {
+  background: url(Images/hall-of-fame.png);
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
 .jumbotron-hall {
   background: #fbcfca;
 }
@@ -655,6 +678,15 @@ a:active {
   margin-top: 0px;
   padding: 30px;
   text-align: center;
+}
+
+.corporate-members {
+  /* -webkit-transform: translateZ(-1px); */
+  /* transform: translateZ(-1px); */
+  background: url(Images/Corporate-Members.png);
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #About p {
@@ -778,11 +810,25 @@ a:active {
   margin-top: 20px;
   padding-left: 10px;
   color: white;
+  margin: 0 auto;
+  min-width: 210px;
+  display: block;
 }
 
 .footer h3 {
   padding-left: 10px;
   color: #f37667;
+  margin: 0 auto;
+  margin-top: 10px;
+  min-width: 210px;
+  display: block;
+}
+
+.footer img {
+  margin: 0 auto;
+  margin-top: 10px;
+  min-width: 210px;
+  display: block;
 }
 
 /* footer iconography */
@@ -791,6 +837,7 @@ a:active {
   font-size: 24px;
   color: white;
   padding: 15px;
+  align-content: center;
 }
 
 .footer li {
